@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    font-weight: 400;
+    
+}
+h1{
+    color: rgb(9, 9, 103);
+}
+.registerpage{
+background-color:rgb(10, 253, 253);
+width: 500px;
+height: 300px;
+border-radius: 20px;
+ box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+ display: flex;
+ justify-content: space-around;
+margin-left: 50px;
+}
+.success{
+   background-color: green;
+   padding: 5px 25px;
+   border: none;
+   border-radius: 3px;
+   margin-top: 20px;
+   color: aliceblue;
+}
+.failure{
+    padding: 8px 20px;
+    background-color: crimson;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    color: azure;
+}
+.success:hover{
+    transform: scale(1.08);
+}
+.failure:hover {
+    transform: scale(1.08);
+}
+
+.forgotpage {
+    background-color: rgb(10, 253, 253);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+#forgotEmail {
+    margin-top: 20px;
+}
+ 
+.resetpage {
+background-color: rgb(10, 253, 253);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.success-message{
+    color:  green;
+    padding-top: 30px;
+}
+.error-message {
+    color: red;
+}
+#resetPassword{
+    margin-top: 32px;
+}
